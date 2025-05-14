@@ -1,0 +1,7 @@
+openai==0.28
+pinecone
+tqdm==4.66.1
+openai[datalib]
+sentence-transformers
+faiss-cpu
+chromadb
