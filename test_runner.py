@@ -1,19 +1,12 @@
+import json
 from webhook_ingest import ingest_stories_to_local_db
 from chat_vector_search import search_chat_input
 from score_checker import score_result
 # from ai_agent import ask_agent
 
-# Sample stories to embed and ingest
-stories = [
-    {
-        "namespace": "story-greenlake",
-        "text": "When I was younger, my mom and I used to spend summer days biking around Green Lake near Seattle...",
-    },
-    {
-        "namespace": "story-attic-adventure",
-        "text": "Lina loved adventures. Every weekend, she would explore her grandmother’s big old house...",
-    }
-]
+# Load stories from JSON file
+with open("stories.json", "r") as file:
+    stories = json.load(file)
 
 # Step 1: Ingest stories
 ingest_stories_to_local_db(stories)
