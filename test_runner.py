@@ -31,10 +31,14 @@ stories = [
 # ingest_stories_to_local_db(stories)
 
 # # Step 2: Provide chat input to test
-chat_input = "I love biking around lakes with my family during summers."
+# chat_input = "I love biking around lakes with my family during summers."
 # chat_input =  "Lina loved adventures. Every weekend, she would explore her grandmother’s big old house."
 # chat_input = "When I was younger, my mom and I used to spend summer days biking "
 # chat_input = "A nostalgic reflection where the narrator reminisces about summer days spent biking with their mother around Green Lake, a scenic spot near Seattle. It’s a peaceful and heartfelt memory evoking a sense of warmth, nature, and bonding between parent and child."
+
+
+chat_input = input("\nEnter your chat input: ")
+
 
 # # Step 3: Search similar story
 search_results = search_chat_input(chat_input)
