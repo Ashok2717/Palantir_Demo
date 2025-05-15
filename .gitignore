@@ -1,9 +1,11 @@
-_pycache__
+__pycache__
 
 
 # Ignore virtual environment (if using one)
 venv/
 env/
+venu/
+chroma_data/
 
 # Ignore node_modules (if it's a Node project)
 node_modules/
