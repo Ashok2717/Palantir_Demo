@@ -29,10 +29,7 @@ Follow these steps to set up and run the project on your local machine.
 5. Run the Project in CLI:-
  python test_runner.py
 
-6. Run the Project in Browser:-
-  python app.py runserver 8081
-
-7. Troubleshooting:
+6. Troubleshooting:
  - If you encounter issues, ensure all dependencies are installed and the Python version is compatible.
  - Use `python --version` to check your Python version.
  - Check for any additional setup steps in the project documentation or comments in the code.
