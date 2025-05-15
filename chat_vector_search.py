@@ -1,7 +1,6 @@
 from sentence_transformers import SentenceTransformer
 import chromadb
 from chromadb import PersistentClient
-import faiss 
 import numpy as np
 
 # Initialize ChromaDB client and embedding model

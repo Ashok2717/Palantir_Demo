@@ -1,4 +1,3 @@
-import faiss
 import uuid
 import numpy as np
 from sentence_transformers import SentenceTransformer

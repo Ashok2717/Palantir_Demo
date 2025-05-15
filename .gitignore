@@ -1,0 +1,9 @@
+_pycache__
+
+
+# Ignore virtual environment (if using one)
+venv/
+env/
+
+# Ignore node_modules (if it's a Node project)
+node_modules/
